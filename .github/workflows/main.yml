@@ -1,0 +1,4 @@
+- name: Debugging Info
+  run: |
+    echo "GitHub Token: ${{ secrets.GITHUB_TOKEN }}"
+    echo "OpenAI API Key: ${{ secrets.OPENAI_API_KEY }}"
