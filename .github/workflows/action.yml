@@ -1,0 +1,20 @@
+name: 'AI Code Assistant'
+description: 'An action that leverages OpenAI for code reviews.'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub Token for authentication.'
+    required: true
+
+  OPENAI_API_KEY:
+    description: 'OpenAI API Key for code assistance.'
+    required: true
+
+  OPENAI_API_MODEL:
+    description: 'OpenAI API model to use. Default is "gpt-4".'
+    required: false
+    default: 'gpt-4'
+
+  EXCLUDE:
+    description: 'File patterns to exclude from code assistance. Default is none.'
+    required: false
