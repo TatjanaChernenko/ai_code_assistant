@@ -18,4 +18,3 @@ inputs:
   EXCLUDE:
     description: 'File patterns to exclude from code assistance. Default is none.'
     required: false
-
